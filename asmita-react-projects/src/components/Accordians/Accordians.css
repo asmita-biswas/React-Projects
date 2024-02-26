@@ -1,0 +1,27 @@
+.accordiansPageDiv{
+    text-align: center;
+}
+
+.quotesAccordian {
+    background: #d28b86a1;
+    margin: 30px;
+    padding: 10px 20px;
+    width: 500px;
+}
+.accordianDivs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overviewDiv {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text.single-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
